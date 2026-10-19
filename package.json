@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-latvia-beneficial-owners",
+  "version": "0.1.0",
+  "description": "latvia-beneficial-owners -- Latvia's beneficial-owners register, published as open data by LR Uznemumu registrs (Latvia Enterprise Register): the forename, surname, date of birth, nationality, country of residence and registration date of each natural person reported as a beneficial owner of a…",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-latvia-beneficial-owners": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "latvia-beneficial-owners"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-latvia-beneficial-owners.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-afa871f52282eb6c1f9b053098867843293b9ab9fc8986105e5a1b2e8f79ec20",
+    "sourceCommit": "54bf7d1c06a0775508a65d0c388dd10ba75174c3"
+  }
+}
