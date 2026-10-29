@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/latvia-beneficial-owners",
   "title": "Latvia Beneficial Owners",
   "description": "latvia-beneficial-owners -- Latvia's beneficial-owners register, published as open data by LR…",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/latvia-beneficial-owners",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-latvia-beneficial-owners",

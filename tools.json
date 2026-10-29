@@ -1,0 +1,18 @@
+[
+  {
+    "name": "lv_beneficial_owners",
+    "description": "A Latvian legal entity's beneficial owners (Latvia's beneficial-owners register, published as open data by LR Uznemumu registrs, the Latvia Enterprise Register) by the entity's registration number. Returns each owner's forename, surname, date of birth, nationality and country of residence (ISO-2 codes) and the date the holding was registered, EXACTLY as the register's own open-data file shows them -- no address of any kind. Anyone named here can request removal at support@pipeworx.io; a removal already on file is silently withheld and counted in withheld_by_removal_request.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "registration_number": {
+          "type": "string",
+          "description": "Latvia unique registration number (vienotais registracijas numurs), e.g. \"40003245752\"."
+        }
+      },
+      "required": [
+        "registration_number"
+      ]
+    }
+  }
+]
